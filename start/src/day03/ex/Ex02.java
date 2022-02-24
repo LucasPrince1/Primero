@@ -18,7 +18,7 @@ public class Ex02 {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("반지름 : ");
 		
-	double rad = sc.nextInt();
+	double rad = sc.nextDouble();
 	
 	
 	System.out.println("입력된 반지름 : " + rad );
