@@ -23,16 +23,16 @@ package day03.ex;
    			
  */
 
-import java.util.*;
+import java.util.*; 
 public class Ex01 {
 	public static void main(String[] args) {
 		//입력도구 준비하고
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in); 
 		
 		//입력메세지 출력
 		System.out.print("가로 : ");
 		
-		
+		int width = sc.nextInt();
 		/*
 		
 		String garo = sc.nextLine();// 문자열로 입력받는 방법
@@ -48,7 +48,6 @@ public class Ex01 {
 		
 		*/
 		
-		int width = sc.nextInt();
 			
 		// 출력
 		System.out.println("입력된 정수 가로 : " + width ); 

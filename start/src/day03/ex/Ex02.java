@@ -12,13 +12,16 @@ package day03.ex;
  */
 
 
-import java.util.*;
+import java.util.*; //import java.util.Scanner; 도 가능 /Scanner 쓸거란 얘기 , 여러가지는 *
+					//적용순서는 *보다는 클래스 이름을 명시하는 방법이 우선적용됨.
 public class Ex02 {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);		//입력도구 준비
+												//입력받기 전에 메세지 출력
+												// 입력받는다. 변수에 기억 - 계산하고 - 출력하고
 		System.out.print("반지름 : ");
 		
-	double rad = sc.nextDouble();
+	double rad = sc.nextDouble();			// double rad = sc.nextDouble();
 	
 	
 	System.out.println("입력된 반지름 : " + rad );
@@ -29,6 +32,10 @@ public class Ex02 {
 		
 	}
 	
-	
+	/*
+	  참고]
+	  	형변환에서 큰 타입의 데이터를 작은 타입으로 변환하면
+	  	남는 부분은 버린다.
+	 */
 	
 }

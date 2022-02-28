@@ -15,14 +15,14 @@ package day03.ex;
   			= 24*60*60초 = 86400초
   		
  */
-import java.util.*;
+import java.util.*; //import java.util.*;
 public class Ex04 {
 	public static void main(String[] args) {
-		double total = 365.2426;
+		double total = 365.2426;   //double total = 365.2426;
 		
-		double tmp = total;
+		double tmp = total;			// double tmp = total ;
 		
-		double no1 = tmp-tmp%1;
+		double no1 = tmp-tmp%1;		// 
 		
 		tmp = tmp - no1;
 		
