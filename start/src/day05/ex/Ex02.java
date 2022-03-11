@@ -8,13 +8,14 @@ package day05.ex;
 public class Ex02 {
 
 	public static void main(String[] args) {
-		
+		//반복문으로 출력하기
 		for(int i=0; i<10; i++) {
 			
+			// 문자들을 형변환
 			char no = (char)('A'+i);
 			
-			
-			System.out.println(no);
+			//출력
+			System.out.print(no + " ");
 			
 		}
 		

@@ -23,15 +23,20 @@ public class Ex04 {
 	public static void main(String[] args) {
 
 	Scanner sc = new Scanner(System.in);
-	
+	while(true) {
 	System.out.print("코드를 입력해주세요 : ");
 	
 	int code = sc.nextInt();
 	
+	if(code ==0) {
+		System.out.println("프로그램을 종료합니다.");
+		break;
+	}
+	
 	System.out.print("사용량을 입력해주세요 : ");
 	
-	int fee ;
 	int used = sc.nextInt();
+	int fee ;
 	
 	switch(code) {	
 	case 1 : 
@@ -51,7 +56,9 @@ public class Ex04 {
 		System.out.println("전기요금은 " + fee + "원 입니다.");
 		break;
 		
-		
+	}
+	
+	System.out.println("");
 		}
 		
 	

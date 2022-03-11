@@ -5,9 +5,6 @@ public class Test02 {
 		int no1 = 20;
 		int no2 = 36;
 		
-		System.out.println(20 & 36); //이 경우는 &가 비트연산자이고 논리연산자가 아님
-	
-		
-		
+		System.out.println( no1 & no2 ); // 이경우는 & 가 비트연산을 비트연산자다.
 	}
 }

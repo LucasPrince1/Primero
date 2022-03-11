@@ -16,26 +16,44 @@ public class Ex05 {
 
 	public static void main(String[] args) {
 
-		int com = (int)(Math.random() * (3-1+1)+1);
-			
-		
 		Scanner sc = new Scanner(System.in); //입력도구 준비
+		
+		while(true) {
+			
+		int com = (int)(Math.random() * (3-1+1)+1); //컴퓨터의 랜덤숫자
 		
 		System.out.print("1 ~ 3 사이의 숫자를 입력하시오. : ");
 		//입력메세지 출력
+		
 		int user = sc.nextInt();
 		
-		String fin = "승";
+		if(user==0) {
+			System.out.println("프로그램을 종료합니다.");
+			break;
+		}
 		
-		 if (com == user) { 
-			 
+		System.out.println("컴퓨터 : " + com);
+		
+		//String fin = "";
+				
+		 if(com == user) { //fin = "무승부";
+			 System.out.println("무승부");			 
+		 } else if(com > user && (com-user)==1) {//fin = "컴퓨터 승";
+			System.out.println("컴퓨터 승");
+		 } else if(com > user && (com-user)==2) {//fin = "사용자 승";
+			System.out.println("사용자 승");
+		 } else if(com < user && (user-com)==1) {//fin = "사용자 승";
+			System.out.println("사용자 승");
+		 } else if(com < user && (user-com)==2 ) {//fin = "컴퓨터 승";
+			System.out.println("컴퓨터 승");
 		 }
 		
 		
+		 // System.out.println(fin);
 		
-		//1가위 2 바위 3보  2 > 1 , 3 > 2 , 1 > 3
+		// 1 가위 2 바위 3 보  2 > 1 , 3 > 2 , 1 > 3
 		
-		
+		}
 	}
 
 }
