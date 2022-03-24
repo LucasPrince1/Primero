@@ -31,7 +31,8 @@ public class Test01 {
 			
 			String song = "Make 'em whistle like a missile, bomb, bomb";
 			byte[] buff = song.getBytes();
-			fout.write(buff, 9, buff.length - 9); // buff.length - 9  : 내보낼 갯수, 9 : 시작 인덱스
+			fout.write(buff, 9, buff.length - 9); 
+			// buff.length - 9  : 내보낼 갯수, 9 : 시작 인덱스
 			
 			System.out.println("### 파일 저장 성공 ###");
 		} catch(Exception e) {

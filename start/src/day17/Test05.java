@@ -54,7 +54,7 @@ public class Test05 {
 				 */
 				boolean bool = false;
 				
-				if(name.endsWith("JPG")) { // 파일이름이 jpg로 끝나니???
+				if(name.endsWith("JPG")) { // 파일이름이 JPG로 끝나니???
 					// 이 경우는 결과 목록에 이 파일을 포함시킨다.
 					bool = true;
 				} /*else {

@@ -18,7 +18,8 @@ public class Test03 {
 		// 출력
 		System.out.println("로제 : " + map.get("로제"));
 		System.out.println();
-		// 키값만 모두 추출
+		
+		// 키값만 모두 추출 : 키값을 Object 타입에 담고 get으로 추출
 		Set keys = map.keySet();
 		for(Object key : keys) {
 			Object value = map.get(key);

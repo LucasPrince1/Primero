@@ -20,7 +20,7 @@ public class Test01 {
 		
 		// HashSet을 만든다.
 		HashSet set = new HashSet();
-		// 위에 만든 네모 두개를 넣어본다.
+		// 위에 만든 네모 4개를 넣어본다.
 		set.add(n1);
 		set.add(n2);
 		set.add(n3);
