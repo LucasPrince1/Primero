@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+  background-color: skyblue;
+  text-align: center;
+}
+p {
+  color: rgb(225, 225, 196);
+  font-size: 1.52em;
+  font-family: 'Kaushan Script', cursive;
+}
+h1 {
+  margin: 50px;
+  font-family: 'Kaushan Script', cursive;
+  color: rgb(0, 0, 255);
+}
+a {
+  color: rgb(127, 182, 255);
+  background-color: rgb(216, 255, 196);
+  text-decoration: none;
+}
+a:hover {
+  background-color: bisque;
+  color: cornflowerblue;
+}
+li{list-style-type: none;}
